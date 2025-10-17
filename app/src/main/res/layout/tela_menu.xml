@@ -23,7 +23,7 @@
             android:layout_marginTop="15sp"/>
 
         <EditText
-            android:id="@+id/editNomeFuncionario"
+            android:id="@+id/edtNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nome do Funcionário"
@@ -31,7 +31,7 @@
             android:layout_marginBottom="16dp" />
 
         <EditText
-            android:id="@+id/editSalarioBruto"
+            android:id="@+id/edtSalario"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Salário Bruto"
@@ -46,21 +46,21 @@
             android:layout_marginBottom="8dp" />
 
         <RadioGroup
-            android:id="@+id/radioSexo"
+            android:id="@+id/rgOpcoes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="16dp">
 
             <RadioButton
-                android:id="@+id/radioMasculino"
+                android:id="@+id/rbtnMasculino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Masculino"
                 android:textColor="@color/azul" />
 
             <RadioButton
-                android:id="@+id/radioFeminino"
+                android:id="@+id/rbtnFeminino"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Feminino"
@@ -68,7 +68,7 @@
         </RadioGroup>
 
         <EditText
-            android:id="@+id/editNumeroFilhos"
+            android:id="@+id/edtFilhos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Número de Filhos"
