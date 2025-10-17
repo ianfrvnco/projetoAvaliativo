@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/txtTituloCalculadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de Salário"
+            android:textSize="46sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/amarelo_queimado"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="15sp"/>
+
+        <EditText
+            android:id="@+id/editNomeFuncionario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Funcionário"
+            android:maxLength="80"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editSalarioBruto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Salário Bruto"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:textColor="@color/azul"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radioMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculino"
+                android:textColor="@color/azul" />
+
+            <RadioButton
+                android:id="@+id/radioFeminino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feminino"
+                android:textColor="@color/azul"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editNumeroFilhos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de Filhos"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Salário Líquido"
+            android:backgroundTint="@color/amarelo_queimado"
+            android:textColor="@color/branco"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preto">#FF000000</color>
+    <color name="laranja">#FFA500</color>
+    <color name="azul">#2196F3</color>
+    <color name="azul_escuro">#114d7d</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="amarelo">#FFFF00</color>
+    <color name="amarelo_queimado">#ab8b0c</color>
+    <color name="dourado">#FFD700</color>
+</resources>
